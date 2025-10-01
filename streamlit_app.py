@@ -17,7 +17,7 @@ if onedaypoopnum >2:
 else:
     st.write("you are 정상인")
 
-level = st.slider("똥 마려운 정도", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,)
+level = st.slider("똥 마려운 정도", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 st.write("선택한 똥 마려운 정도:", level)
 
 
