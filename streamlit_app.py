@@ -8,10 +8,24 @@ st.write(
 if st.button("똥싸기 버튼"):
     st.write("뿌지직!")
     st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgLYELrfWxO0c3gzrzbSg4qGAYJedosxKSfg&s")
+
+onedaypoopnum = st.number_input("하루에 똥싸는 횟수를 입력해주세요.", step=1)
+st.write("하루 똥 수:", onedaypoopnum)
+
+if onedaypoopnum >2:
+    st.write("you are 똥쨍이")
+else:
+    st.write("you are 정상인")
+
+
 st.success("똥")
 st.info("싸")
 st.warning("라")
 st.video("https://www.youtube.com/watch?v=twqHKKC41bg")
+
+
+#주석 주석 주석 주석 주석 주석 주석 주석 주석
+
 
 
 
