@@ -120,7 +120,7 @@ if st.session_state.q_index < len(quiz_data):
             st.session_state.q_index += 1
             st.session_state.answered = False
             st.session_state.show_hint = False
-            st.experimental_rerun()
+            st.rerun()   # ✅ 여기 수정됨
 
 else:
     # --- 결과 화면 ---
@@ -143,4 +143,4 @@ else:
         st.session_state.score = 0
         st.session_state.answered = False
         st.session_state.show_hint = False
-        st.experimental_rerun()
+        st.rerun()   # ✅ 여기 수정됨
