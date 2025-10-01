@@ -20,6 +20,11 @@ else:
 level = st.slider("똥 마려운 정도", 1, 10, 5)
 st.write("선택한 똥 마려운 정도:", level)
 
+if level > 6:
+    st.write("very 급함ㅠㅠ")
+else:
+    st.write("참아라 닝겐")
+
 
 st.success("똥")
 st.info("싸")
