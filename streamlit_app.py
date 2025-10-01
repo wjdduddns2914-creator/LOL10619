@@ -7,9 +7,9 @@ st.write(
 
 if st.button("똥싸기 버튼"):
     st.write("뿌지직!")
+    st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgLYELrfWxO0c3gzrzbSg4qGAYJedosxKSfg&s")
 st.success("똥")
 st.info("싸")
-st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgLYELrfWxO0c3gzrzbSg4qGAYJedosxKSfg&s")
 st.video("https://www.youtube.com/watch?v=twqHKKC41bg")
 
 
