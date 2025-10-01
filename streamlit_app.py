@@ -25,6 +25,11 @@ if level > 6:
 else:
     st.write("참아라 닝겐")
 
+image_data = st.camera_input("사진을 찍어보세요")
+if image_data:
+    st.image(image_data)
+    st.write("똥 마려운 놈")
+
 
 st.success("똥")
 st.info("싸")
